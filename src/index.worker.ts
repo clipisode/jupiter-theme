@@ -78,7 +78,7 @@ export const siteData: SiteData = {
             <a href="https://jupiter.com">
               <img src="THEME_FILE_ROOT/logo.png" style="width: 220px; height: 39px; margin: 0 auto;" />
             </a>
-            <p class="mt-12 mb-12 mx-3 text-center">Now go download our app from the App Store to claim your 50 rep points.</p>
+            <p class="mt-12 mb-12 mx-3 text-center">Now go <a href="#">download our app</a> from the App Store to claim your 50 rep points.</p>
           </div>
         </div>
       </div>

@@ -31,15 +31,15 @@ body {
   font-weight: 700;
   margin: 0 6rem 0 1.5rem;
   font-size: 2.2rem;
-  line-height: 1.8;
+  line-height: 1.2;
 }
 
 #recordButton {
-  background-color: #000000;
-  color: #dea925;
+  background-color: #dea925;
+  color: #000000;
   font-family: "Questrial";
   font-weight: 500;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   text-transform: uppercase;
   padding: 8px 24px;
   margin-bottom: 6px;
@@ -54,7 +54,7 @@ body {
 
 #uploadLink span {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 #introTerms {
@@ -69,7 +69,7 @@ body {
 
 #introTerms a {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 #buttonsContainer button {

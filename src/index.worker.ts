@@ -72,7 +72,8 @@ export const siteData: SiteData = {
     markup: `
       <div class="flex flex-grow flex-col items-center justify-between">
         <div>
-          <p class="mt-12 mb-12 mx-3 text-center">Nice work! Your video review for <span class="whitespace-nowrap"><b>INVITATION_DISPLAY_NAME</b></span> <span class="whitespace-nowrap">was sent.</span></p>
+        <h1>Nice work!</h1>
+        <p class="mt-12 mb-12 mx-3 text-center">Your video review for <span class="whitespace-nowrap"><b>INVITATION_DISPLAY_NAME</b></span> <span class="whitespace-nowrap">was sent.</span></p>
           <div class="m-2">
             <p class="mt-12 mb-12 mx-3 text-center">Now go <a href="#">download our app</a> from the App Store to claim your 50 rep points.</p>
           </div>

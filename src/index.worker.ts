@@ -48,8 +48,9 @@ export const siteData: SiteData = {
     saveButtonLabel: "Save my review",
     nameScreenHeader: `
       <div class="my-2 flex flex-col items-center">
+        <img src="THEME_FILE_ROOT/icon.png" class="h-24" />
       </div>
-    `,
+`,
   },
   closedScreen: {
     // values: THEME_FILE_ROOT, INVITATION_DISPLAY_NAME
@@ -72,8 +73,11 @@ export const siteData: SiteData = {
     markup: `
       <div class="flex flex-grow flex-col items-center justify-between">
         <div>
-        <h1 class="text-center text-white font-heading font-extrabold mt-12 p-0 text-2xl">Nice work!</h1>
-        <p class="mt-12 mb-12 mx-3 text-center">Your video review for <span class="whitespace-nowrap"><b>INVITATION_DISPLAY_NAME</b></span> <span class="whitespace-nowrap">was sent.</span></p>
+          <h1 class="text-center text-white font-heading font-extrabold mt-12 p-0 text-2xl">Nice work!</h1>
+          <p class="mt-12 mb-12 mx-3 text-center">Your video review for <span class="whitespace-nowrap"><b>INVITATION_DISPLAY_NAME</b></span> <span class="whitespace-nowrap">was sent.</span></p>
+          <div class="my-2 flex flex-col items-center">
+            <img src="THEME_FILE_ROOT/icon.png" class="h-24" />
+          </div>
           <div class="m-2">
             <p class="mt-12 mb-12 mx-3 text-center">Now go <a href="#">download our app</a> from the App Store to claim your 50 rep points.</p>
           </div>

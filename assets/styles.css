@@ -97,13 +97,19 @@ body {
   color: white;
 }
 
+#nameScreen h1 {
+  font-family: "Playfair Display";
+}
+
 #nameScreen label {
+  font-family: "Questrial";
   color: white;
   font-weight: 300;
   font-size: 14px;
 }
 
 #nameScreen p {
+  font-family: "Roboto";
   color: white;
   font-weight: 400;
   font-size: 14px;
@@ -115,7 +121,7 @@ body {
 
 #successScreen p {
   color: white;
-  font-family: "Questrial";
+  font-family: "Roboto";
 }
 
 #successScreen a {

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Questrial&family=Roboto:wght@400;700&display=fallback");
+
 .ios .iosOnly,
 .android .androidOnly,
 .twitter .twitterOnly,
@@ -5,4 +7,135 @@
 .tiktok .tiktokOnly,
 .snapchat .snapchatOnly {
   display: unset;
+}
+
+body {
+  background-color: #000000;
+}
+
+#detailsContainer,
+#nameScreen,
+#nameScreen #nameScreenHeading,
+#nameScreen label,
+#nameScreen input {
+  font-family: "Roboto";
+}
+
+#introHostName {
+  font-family: "Questrial";
+  margin: 2rem 4rem 0 1.5rem;
+}
+
+#introTitle {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  margin: 0 6rem 0 1.5rem;
+  font-size: 1.4rem;
+  line-height: 1.1;
+}
+
+#recordButton {
+  background-color: #7738d0;
+  font-family: "Questrial";
+  font-weight: 500;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  padding: 2px 36px;
+  margin-bottom: 6px;
+}
+
+#uploadLink {
+  color: white;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 10px;
+}
+
+#uploadLink span {
+  color: white;
+  text-decoration: none;
+}
+
+#introTerms {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 13px;
+  width: 50%;
+  margin: 6px auto;
+}
+
+#introTerms a {
+  color: white;
+  text-decoration: none;
+}
+
+#buttonsContainer button {
+  background-color: #dea925;
+  font-family: "Questrial";
+  font-weight: 500;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  padding: 2px 36px;
+  margin-bottom: 6px;
+}
+
+#buttonsContainer button.buttonSkip {
+  background-color: transparent;
+}
+
+#nameScreen label {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+#nameScreen p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#successScreen {
+  background-color: #000000;
+}
+
+#successScreen p {
+  color: white;
+  font-family: "Questrial";
+}
+
+#awesome {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+
+#checkusout {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+#hashtag {
+  position: absolute;
+  left: 1.5rem;
+  bottom: 1.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#videoArea {
+  background: linear-gradient(
+    -15deg,
+    #000000 0%,
+    #8e51e4 15%,
+    #a173e2 20%,
+    #a173e2 40%,
+    #8e51e4 55%,
+    #000000 100%
+  );
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
 }

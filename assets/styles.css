@@ -74,11 +74,12 @@ body {
 
 #buttonsContainer button {
   background-color: #dea925;
+  color: #000000;
   font-family: "Questrial";
   font-weight: 500;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   text-transform: uppercase;
-  padding: 2px 36px;
+  padding: 8px 24px;
   margin-bottom: 6px;
 }
 
@@ -103,6 +104,11 @@ body {
 #successScreen p {
   color: white;
   font-family: "Questrial";
+}
+
+#successScreen a {
+  color: dea925;
+  text-decoration: underline;
 }
 
 #awesome {

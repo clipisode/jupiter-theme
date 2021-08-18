@@ -48,7 +48,6 @@ export const siteData: SiteData = {
     saveButtonLabel: "Save my review",
     nameScreenHeader: `
       <div class="my-2 flex flex-col items-center">
-        <img src="THEME_FILE_ROOT/icon.png" class="w-16 h-16" />
       </div>
     `,
   },
@@ -75,9 +74,6 @@ export const siteData: SiteData = {
         <div>
           <p class="mt-12 mb-12 mx-3 text-center">Nice work! Your video review for <span class="whitespace-nowrap"><b>INVITATION_DISPLAY_NAME</b></span> <span class="whitespace-nowrap">was sent.</span></p>
           <div class="m-2">
-            <a href="https://jupiter.com">
-              <img src="THEME_FILE_ROOT/logo.png" style="width: 220px; height: 39px; margin: 0 auto;" />
-            </a>
             <p class="mt-12 mb-12 mx-3 text-center">Now go <a href="#">download our app</a> from the App Store to claim your 50 rep points.</p>
           </div>
         </div>

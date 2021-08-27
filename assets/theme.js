@@ -10,6 +10,7 @@ setInterval(() => {
       var $circle = document.querySelector('#svg #bar');
       
       if (isNaN(val)) {
+        return;
         val = 100;
       }
       else {

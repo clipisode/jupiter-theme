@@ -18,19 +18,6 @@ setInterval(() => {
   const heading = document.querySelector("#nameScreenHeading")
 
 
-
-  const saveButton = document.querySelector("#buttonsContainer > button");
-  const frm = document.querySelector("#nameScreen form");
-
-  if (saveButton && form) {
-    if (saveButton.innerHTML !== "Save my review") {
-      frm.style.display = "none";
-    } else {
-      frm.style.display = null;
-    }
-  }
-
-
   if (heading) {
     const uploadingText = heading.innerHTML;
 

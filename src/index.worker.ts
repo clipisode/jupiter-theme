@@ -73,13 +73,16 @@ export const siteData: SiteData = {
     markup: `
       <div class="flex flex-grow flex-col items-center justify-between">
         <div>
-          <h1 class="text-center text-white font-heading font-extrabold mt-12 p-0 text-2xl">Nice work!</h1>
-          <p class="mt-12 mb-12 mx-3 text-center">Your video review for <span class="whitespace-nowrap"><b>INVITATION_DISPLAY_NAME</b></span> <span class="whitespace-nowrap">was sent.</span></p>
           <div class="my-2 flex flex-col items-center">
-            <img src="THEME_FILE_ROOT/icon.png" class="h-24" />
+            <img src="THEME_FILE_ROOT/checkmark.png" class="h-24" />
           </div>
+          <h1 class="text-center text-white font-heading font-extrabold mt-12 p-0 text-2xl">Upload successful</h1>
+          <p class="mt-12 mb-12 mx-3 text-center">Your video review for <span class="whitespace-nowrap hostname"><b>INVITATION_DISPLAY_NAME</b></span> <span class="whitespace-nowrap">was sent.</span></p>
+        </div>
+        <div>
           <div class="m-2">
-            <p class="mt-12 mb-12 mx-3 text-center">Now go <a href="#">download our app</a> from the App Store to claim your 50 rep points.</p>
+            <p class="mt-12 mb-12 mx-3 text-center">You just earned 50 rep points. To claim them, go to the App Store and download our app now.</p>
+            <button id="downloadButton" class="bg-brand-primary text-white font-bold rounded px-2.5 py-1.5 mb-3 pointer-events-auto" style="cursor:pointer">Download our app</button>
           </div>
         </div>
       </div>

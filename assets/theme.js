@@ -4,4 +4,4 @@ var observer = new MutationObserver(
   }
 );
 
-observer.observe(document.querySelector('#introScreen'), { childList: true });
+observer.observe(document.querySelector('body'), { childList: true });

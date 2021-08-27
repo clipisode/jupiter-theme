@@ -41,7 +41,7 @@ body {
   font-size: 0.85rem;
   text-transform: uppercase;
   padding: 8px 36px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   letter-spacing: 0.05rem;
   -webkit-text-stroke: 0.65px black;
 }
@@ -50,8 +50,7 @@ body {
   color: white;
   font-family: "Questrial";
   font-weight: 300;
-  font-size: 13px;
-  letter-spacing: 0.05rem;
+  font-size: 12px;
 }
 
 #uploadLink span {
@@ -63,8 +62,7 @@ body {
   text-align: center;
   font-family: "Questrial";
   font-weight: 300;
-  font-size: 13px;
-  letter-spacing: 0.05rem;
+  font-size: 12px;
   line-height: 15px;
   width: 80%;
   margin: 18px auto 6px auto;

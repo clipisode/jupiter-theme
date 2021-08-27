@@ -101,6 +101,9 @@ body {
 
 #nameScreen {
   background-color: #161921;
+  margin-top: 140px;
+  border-radius: 24px 24px 0 0;
+  background-color: rgba(22, 25, 33, 0.85);
 }
 
 #nameScreen h1,

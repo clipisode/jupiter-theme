@@ -1,3 +1,15 @@
+function hideCont() {
+  const cont = document.querySelector("#cont");
+
+  if (cont) cont.style.display = "none";
+}
+
+function showCont() {
+  const cont = document.querySelector("#cont");
+
+  if (cont) cont.style.display = null;
+}
+
 setInterval(() => {
   const heading = document.querySelector("#nameScreenHeading")
 
@@ -10,10 +22,12 @@ setInterval(() => {
       var $circle = document.querySelector('#svg #bar');
       
       if (isNaN(val)) {
+        hideCont();
         return;
         val = 100;
       }
       else {
+        showCont();
         var r = $circle.getAttribute('r');
         var c = Math.PI * (r * 2);
       

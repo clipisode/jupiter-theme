@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: #161921;
 }
 
 #detailsContainer,
@@ -91,7 +91,7 @@ body {
 }
 
 #nameScreen {
-  background-color: #000000;
+  background-color: #161921;
 }
 
 #nameScreen h1,
@@ -120,12 +120,23 @@ body {
 }
 
 #successScreen {
-  background-color: #000000;
+  background-color: #161921;
+}
+
+#successMessage {
+  background-color: #32363f;
+  border-radius: 12px;
 }
 
 #successScreen p {
   color: white;
-  font-family: "Roboto";
+  text-align: center;
+  font-family: "Questrial";
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  width: 80%;
+  margin: 18px auto 6px auto;
 }
 
 #successScreen a {
@@ -156,26 +167,4 @@ body {
   margin-bottom: 6px;
   letter-spacing: 0.05rem;
   -webkit-text-stroke: 0.65px black;
-}
-
-#awesome {
-  font-weight: 700;
-  font-size: 1.5rem;
-  line-height: 1.8rem;
-  margin-top: 10rem;
-  margin-bottom: 2rem;
-}
-
-#checkusout {
-  font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 1.4rem;
-}
-
-#hashtag {
-  position: absolute;
-  left: 1.5rem;
-  bottom: 1.5rem;
-  font-weight: 400;
-  font-size: 1rem;
 }

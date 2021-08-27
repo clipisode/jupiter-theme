@@ -72,7 +72,7 @@ export const siteData: SiteData = {
     // values: THEME_FILE_ROOT, INVITATION_DISPLAY_NAME
     markup: `
       <div class="flex flex-grow flex-col items-center justify-between">
-        <div>
+        <div id="successMessage">
           <div class="my-2 flex flex-col items-center">
             <img src="THEME_FILE_ROOT/checkmark.png" class="h-24" />
           </div>

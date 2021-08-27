@@ -27,11 +27,6 @@ export const siteData: SiteData = {
     markup: `
       <div class="flex flex-col items-center justify-between text-center flex-grow ">
         <div class="flex flex-col items-center justify-between text-center">
-          <div class="m-2">
-            <a href="https://jupiter.com">
-              <img src="THEME_FILE_ROOT/icon.png" class="w-12 h-12" />
-            </a>
-          </div>
           <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-28 md:max-h-32 overflow-hidden">TOPIC_TITLE</h1>
         </div>
         <div class="m-8">QR_CODE</div>

@@ -18,7 +18,7 @@ setInterval(() => {
         val = 100;
       }
       else {
-        var r = $circle.attr('r');
+        var r = $circle.getAttribute('r');
         var c = Math.PI * (r * 2);
       
         if (val < 0) { val = 0; }

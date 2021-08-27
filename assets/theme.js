@@ -22,7 +22,7 @@ setInterval(() => {
   const saveButton = document.querySelector("#buttonsContainer > button");
   const frm = document.querySelector("#nameScreen form");
 
-  if (saveButton && form) {
+  if (saveButton && frm) {
     if (saveButton.innerHTML !== "Save my review") {
       frm.style.display = "none";
     } else {

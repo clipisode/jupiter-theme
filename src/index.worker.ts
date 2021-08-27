@@ -4,8 +4,9 @@ export const getCustomDataDescriptors: GetCustomDataDescriptorsFn = () => {
   return [];
 };
 
-export const siteData: SiteData = {
+export const siteData: any = {
   customCssKey: "styles.css",
+  customJsKey: "theme.js",
   meta: {
     // values: TOPIC_TITLE
     title: "TOPIC_TITLE • Jupiter",

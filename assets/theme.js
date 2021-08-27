@@ -1,13 +1,17 @@
 function hideCont() {
   const cont = document.querySelector("#cont");
+  const nsh = document.querySelector("#nameScreenHeading");
 
   if (cont) cont.style.display = "none";
+  if (nsh) nsh.style.display = null;
 }
 
 function showCont() {
   const cont = document.querySelector("#cont");
+  const nsh = document.querySelector("#nameScreenHeading");
 
   if (cont) cont.style.display = null;
+  if (nsh) nsh.style.display = "none";
 }
 
 setInterval(() => {
@@ -16,6 +20,11 @@ setInterval(() => {
 
   if (heading) {
     const uploadingText = heading.innerHTML;
+
+    if (uploadingText === "Hit save to finish") {
+      hideCont();
+      return;
+    }
 
     if (uploadingText.startsWith("Uploading")) {
       const val = parseInt(uploadingText.split(" ")[1].split("%")[0])

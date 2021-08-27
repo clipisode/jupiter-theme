@@ -218,6 +218,7 @@ body {
   box-shadow: 0 0 1em black;
   border-radius: 100%;
   position: relative;
+  color: white;
 }
 #cont:after {
   position: absolute;

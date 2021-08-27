@@ -154,7 +154,7 @@ body {
 
 #successScreen .hostname {
   letter-spacing: 0.05rem;
-  -webkit-text-stroke: 0.65px black;
+  -webkit-text-stroke: 0.65px white;
 }
 
 #downloadButton {

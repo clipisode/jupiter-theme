@@ -20,6 +20,13 @@ body {
   font-family: "Roboto";
 }
 
+#introScreenDesktop h1 {
+  font-family: "Playfair Display";
+  font-size: 2rem;
+  line-height: 2.3rem;
+  padding-bottom: 6px;
+}
+
 #introHostName {
   font-family: "Questrial";
   margin: 2rem 4rem 0 1.5rem;
@@ -34,13 +41,14 @@ body {
 }
 
 #recordButton {
-  background-color: #dea925;
+  width: 80%;
+  background-color: #f8b300;
   color: #000000;
   font-family: "Questrial";
   font-weight: 500;
   font-size: 0.85rem;
   text-transform: uppercase;
-  padding: 8px 36px;
+  padding: 10px 24px;
   margin-bottom: 16px;
   letter-spacing: 0.05rem;
   -webkit-text-stroke: 0.65px black;
@@ -74,13 +82,14 @@ body {
 }
 
 #buttonsContainer button {
-  background-color: #dea925;
+  width: 80%;
+  background-color: #f8b300;
   color: #000000;
   font-family: "Questrial";
   font-weight: 500;
   font-size: 0.85rem;
   text-transform: uppercase;
-  padding: 8px 24px;
+  padding: 10px 24px;
   margin-bottom: 6px;
   letter-spacing: 0.05rem;
   -webkit-text-stroke: 0.65px black;
@@ -141,7 +150,7 @@ body {
 }
 
 #successScreen a {
-  color: #dea925;
+  color: #f8b300;
   text-decoration: underline;
 }
 
@@ -158,13 +167,14 @@ body {
 }
 
 #downloadButton {
-  background-color: #dea925;
+  width: 80%;
+  background-color: #f8b300;
   color: #000000;
   font-family: "Questrial";
   font-weight: 500;
   font-size: 0.85rem;
   text-transform: uppercase;
-  padding: 8px 24px;
+  padding: 10px 24px;
   margin-bottom: 6px;
   letter-spacing: 0.05rem;
   -webkit-text-stroke: 0.65px black;

@@ -51,9 +51,6 @@ export const siteData: any = {
             <circle id="bar" r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
           </svg>
         </div>
-        <script type="text/javascript">
-        alert("testing UPLOAD_PERCENTAGE");
-        </script>
       </div>
 `,
   },

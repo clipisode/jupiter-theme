@@ -30,6 +30,7 @@ body {
 #playButton img {
   clip-path: circle(31px at center);
   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 #introHostName {

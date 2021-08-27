@@ -27,6 +27,11 @@ body {
   padding-bottom: 6px;
 }
 
+#playButton img {
+  clip-path: circle(31px at center);
+  backdrop-filter: blur(8px);
+}
+
 #introHostName {
   font-family: "Questrial";
   margin: 2rem 4rem 0 1.5rem;
@@ -127,6 +132,10 @@ body {
   font-family: "Questrial";
 }
 
+#nameScreen .formInput:focus {
+  outline: none;
+}
+
 #nameScreen label {
   font-family: "Questrial";
   color: white;
@@ -203,12 +212,12 @@ body {
 
 #svg circle {
   stroke-dashoffset: 0;
-  transition: stroke-dashoffset .25s linear;
+  transition: stroke-dashoffset 0.25s linear;
   stroke: #666;
   stroke-width: 1em;
 }
 #svg #bar {
-  stroke: #1F64FC;
+  stroke: #1f64fc;
 }
 #cont {
   display: block;

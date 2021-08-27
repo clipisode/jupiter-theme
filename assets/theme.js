@@ -7,11 +7,6 @@ setInterval(() => {
 
     if (uploadingText.startsWith("Uploading")) {
       const val = parseInt(uploadingText.split(" ")[1].split("%")[0])
-      // const pct = cont.dataset.pct;
-
-      // console.log({ pct })
-
-      // var val = parseInt($(this).val());
       var $circle = document.querySelector('#svg #bar');
       
       if (isNaN(val)) {
@@ -33,4 +28,4 @@ setInterval(() => {
       }
     }
   }
-}, 1000)
+}, 200)

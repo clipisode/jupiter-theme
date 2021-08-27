@@ -44,7 +44,6 @@ export const siteData: any = {
     saveButtonLabel: "Save my review",
     nameScreenHeader: `
       <div class="my-2 flex flex-col items-center">
-        <img src="THEME_FILE_ROOT/icon.png" class="h-24" />
         <div id="cont" data-pct="0" style="display:none">
           <svg id="svg" width="200" height="200" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <circle r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>

@@ -126,6 +126,7 @@ body {
 #successMessage {
   background-color: #32363f;
   border-radius: 12px;
+  width: 96%;
 }
 
 #successScreen p {
@@ -140,7 +141,7 @@ body {
 }
 
 #successScreen a {
-  color: dea925;
+  color: #dea925;
   text-decoration: underline;
 }
 
@@ -151,7 +152,7 @@ body {
   line-height: 1.2;
 }
 
-#successScreen.hostname {
+#successScreen .hostname {
   letter-spacing: 0.05rem;
   -webkit-text-stroke: 0.65px black;
 }

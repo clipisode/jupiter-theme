@@ -76,8 +76,8 @@ export const siteData: SiteData = {
           <div class="my-2 flex flex-col items-center">
             <img src="THEME_FILE_ROOT/check.png" class="h-12" />
           </div>
-          <h1 class="text-center text-white font-heading font-extrabold mt-12 p-0 text-2xl">Upload successful</h1>
-          <p class="mt-4 mb-12 mx-3 text-center">Your video review for <span class="whitespace-nowrap hostname"><b>INVITATION_DISPLAY_NAME</b></span> <span class="whitespace-nowrap">was sent.</span></p>
+          <h1 class="text-center text-white font-heading font-extrabold mt-2 p-0 text-2xl">Upload successful</h1>
+          <p class="mt-6 mb-12 mx-3 text-center">Your video review for <span class="whitespace-nowrap hostname"><b>INVITATION_DISPLAY_NAME</b></span> <span class="whitespace-nowrap">was sent.</span></p>
         </div>
         <div>
           <div class="m-2">

@@ -71,13 +71,13 @@ export const siteData: SiteData = {
   successScreen: {
     // values: THEME_FILE_ROOT, INVITATION_DISPLAY_NAME
     markup: `
-      <div class="flex flex-grow flex-col items-center justify-between">
+      <div class="flex flex-grow flex-col items-center justify-center">
         <div id="successMessage">
           <div class="my-2 flex flex-col items-center">
-            <img src="THEME_FILE_ROOT/checkmark.png" class="h-24" />
+            <img src="THEME_FILE_ROOT/check.png" class="h-12" />
           </div>
           <h1 class="text-center text-white font-heading font-extrabold mt-12 p-0 text-2xl">Upload successful</h1>
-          <p class="mt-12 mb-12 mx-3 text-center">Your video review for <span class="whitespace-nowrap hostname"><b>INVITATION_DISPLAY_NAME</b></span> <span class="whitespace-nowrap">was sent.</span></p>
+          <p class="mt-4 mb-12 mx-3 text-center">Your video review for <span class="whitespace-nowrap hostname"><b>INVITATION_DISPLAY_NAME</b></span> <span class="whitespace-nowrap">was sent.</span></p>
         </div>
         <div>
           <div class="m-2">

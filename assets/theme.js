@@ -17,8 +17,6 @@ function showCont() {
 setInterval(() => {
   const heading = document.querySelector("#nameScreenHeading")
 
-
-
   const saveButton = document.querySelector("#buttonsContainer > button");
   const frm = document.querySelector("#nameScreen form");
 
@@ -46,10 +44,12 @@ setInterval(() => {
       if (isNaN(val)) {
         hideCont();
         return;
-        val = 100;
       }
       else {
-        showCont();
+        if (frm && saveButton && saveButton.innerHTML !== "Save my review")
+          showCont();
+        else hideCont();
+
         var r = $circle.getAttribute('r');
         var c = Math.PI * (r * 2);
       

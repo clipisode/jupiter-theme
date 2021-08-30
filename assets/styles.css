@@ -124,7 +124,9 @@ body {
 
 #nameScreen h1 {
   font-family: "Playfair Display";
-  font-family: "Roboto";
+  font-size: 2rem;
+  line-height: 2.3rem;
+  padding-bottom: 6px;
 }
 
 #nameScreen .formInput {
@@ -227,6 +229,7 @@ body {
   width: 120px;
   margin: 2em auto;
   box-shadow: 0 0 0.5em #666666;
+  box-shadow: none;
   border-radius: 100%;
   position: relative;
   color: white;

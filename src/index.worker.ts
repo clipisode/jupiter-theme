@@ -43,6 +43,7 @@ export const siteData: any = {
     instructions: `Add your name and hit Save to send <b>INVITATION_DISPLAY_NAME</b> your <span class="whitespace-nowrap">video review.</span>`,
     saveButtonLabel: "Save my review",
     nameScreenHeader: `
+      <div id="videoFade"></div>
       <div class="my-2 flex flex-col items-center">
         <div id="cont" data-pct="0" style="display:none">
         <h1 id="nameScreenHeadingFixed" class="text-center font-heading font-extrabold p-0 mb-4 text-2xl" style="position: absolute; width: 100%; margin-top: -40px;">Uploading…</h1>

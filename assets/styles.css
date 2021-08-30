@@ -219,6 +219,8 @@ body {
   transition: stroke-dashoffset 0.25s linear;
   stroke: #000000;
   stroke-width: 0.7em;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
 }
 #svg #bar {
   stroke: #2064fc;

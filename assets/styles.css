@@ -113,7 +113,7 @@ body {
   background-color: #161921;
   margin-top: 140px;
   border-radius: 24px 24px 0 0;
-  background-color: rgba(22, 25, 33, 0.85);
+  background-color: rgba(22, 25, 33, 0.95);
 }
 
 #nameScreen h1,
@@ -123,10 +123,10 @@ body {
 }
 
 #nameScreen h1 {
-  font-family: "Playfair Display";
-  font-size: 2rem;
-  line-height: 2.3rem;
-  padding-bottom: 6px;
+  font-family: "Questrial";
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  padding-bottom: 0;
 }
 
 #nameScreen .formInput {
@@ -218,15 +218,17 @@ body {
   stroke-dashoffset: 0;
   transition: stroke-dashoffset 0.25s linear;
   stroke: #000000;
-  stroke-width: 1em;
+  stroke-width: 0.6em;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
 }
 #svg #bar {
   stroke: #2064fc;
 }
 #cont {
   display: block;
-  height: 120px;
-  width: 120px;
+  height: 130px;
+  width: 130px;
   margin: 2em auto;
   box-shadow: 0 0 0.5em #666666;
   box-shadow: none;

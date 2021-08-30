@@ -45,6 +45,7 @@ export const siteData: any = {
     nameScreenHeader: `
       <div class="my-2 flex flex-col items-center">
         <div id="cont" data-pct="0" style="display:none">
+        <h1 id="nameScreenHeadingFixed" class="text-center font-heading font-extrabold p-0 mb-4 text-2xl" style="position: absolute; width: 100%; margin-top: -40px;">Uploading…</h1>
           <svg id="svg" width="130" height="130" viewPort="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <circle r="54" cx="65" cy="65" fill="transparent" stroke-dasharray="339.293" stroke-dashoffset="0"></circle>
             <circle id="bar" r="54" cx="65" cy="65" fill="transparent" stroke-dasharray="339.293" stroke-dashoffset="0"></circle>

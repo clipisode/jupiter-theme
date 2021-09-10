@@ -86,7 +86,7 @@ export const siteData: any = {
           <div class="m-2 mt-12 mb-12 px-6">
             <p class="mt-12 mb-12 mx-3 text-center">You can claim 50 rep points. Go to the App Store and download the app today!</p>
             <div class="flex flex-col items-center">
-              <button id="downloadButton" class="bg-brand-primary text-white font-bold rounded px-2.5 py-1.5 mb-3 pointer-events-auto" style="cursor:pointer">Download our app</button>
+              <button id="downloadButton" class="bg-brand-primary text-white font-bold rounded px-2.5 py-1.5 mb-3 pointer-events-auto focus:outline-none" style="cursor:pointer">Download our app</button>
             </div>
           </div>
         </div>
